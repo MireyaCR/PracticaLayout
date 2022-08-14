@@ -11,15 +11,25 @@ header h1{
 }
 div.postal{
     background: white;
+    margin: top 10px;
 }
 div.postal img{
     width:100%;
 }
 div.postal cabecera div:first-child{
     display: inline-block;
+    width: 80%;
+}
+div.postal cabecera div:last-child{
+    display: inline-block;
+    width: 20%;
+    padding: 10px;
+    text-align: right;
+    color: gray;
 }
 div.postal h2, div. postal p{
     padding:10px;
+    margin: 0;
 }
 div.contenedor{
     width:600px;
