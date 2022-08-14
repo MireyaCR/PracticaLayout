@@ -3,35 +3,35 @@ body{
     margin:0;
 }
 header{
-    background-color: white;
+    background: white;
     padding:10px;
 }
 header h1{
     margin:0;
 }
-div.postal{
+div.post{
     background: white;
-    margin: top 10px;
+    margin-top: 10px;
 }
-div.postal img{
+div.post img{
     width:100%;
 }
-div.postal cabecera div:first-child{
+div.post .cabecera div:first-child{
     display: inline-block;
     width: 80%;
 }
-div.postal cabecera div:last-child{
+div.post .cabecera div:last-child{
     display: inline-block;
-    width: 20%;
+    width: 15%;
     padding: 10px;
     text-align: right;
     color: gray;
 }
-div.postal h2, div. postal p{
+div.post h2, div.post p{
     padding:10px;
     margin: 0;
 }
 div.contenedor{
-    width:600px;
+    width:500px;
     margin:auto;
 }
