@@ -35,3 +35,6 @@ div.contenedor{
     width:500px;
     margin:auto;
 }
+div.post div:last-child{
+    padding: 10px;
+}
