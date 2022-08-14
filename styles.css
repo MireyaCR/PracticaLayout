@@ -1,0 +1,27 @@
+body{
+    background: gainsboro;
+    margin:0;
+}
+header{
+    background-color: white;
+    padding:10px;
+}
+header h1{
+    margin:0;
+}
+div.postal{
+    background: white;
+}
+div.postal img{
+    width:100%;
+}
+div.postal cabecera div:first-child{
+    display: inline-block;
+}
+div.postal h2, div. postal p{
+    padding:10px;
+}
+div.contenedor{
+    width:600px;
+    margin:auto;
+}
