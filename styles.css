@@ -1,10 +1,12 @@
 body{
     background: gainsboro;
     margin:0;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
 }
 header{
     background: white;
     padding:10px;
+    font-size: xx-small;
 }
 header h1{
     margin:0;
@@ -25,11 +27,12 @@ div.post .cabecera div:last-child{
     width: 15%;
     padding: 10px;
     text-align: right;
-    color: gray;
+    color: gray;    
 }
 div.post h2, div.post p{
     padding:10px;
     margin: 0;
+    font-size: xx-small;
 }
 div.contenedor{
     width:500px;
@@ -37,4 +40,8 @@ div.contenedor{
 }
 div.post div:last-child{
     padding: 10px;
+    font-size: xx-small;
+}
+span{
+    font-size: x-small;
 }
